@@ -6,6 +6,7 @@ import com.hoa.helpers.PropertiesHelper;
 import com.hoa.listeners.TestListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
@@ -28,7 +29,11 @@ public class BaseTest {
         WebDriver driver;
         switch (browserName.trim().toLowerCase()) {
             case "chrome":
-                driver = initChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                //set chrome as Headless
+                options.addArguments("--headless");
+                options.addArguments("--disable-notifications");
+                driver = new ChromeDriver(options);
                 break;
             case "firefox":
                 driver = initFirefoxDriver();

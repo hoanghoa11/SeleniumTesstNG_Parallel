@@ -254,3 +254,74 @@ Command: [958450c83b4c223b41c5f2f9184fa1fc, findElement {using=xpath, value=//ul
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58735/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 958450c83b4c223b41c5f2f9184fa1fc
 [INFO] 09-03-2025 16:53:33 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 18:49:57 [main] LogUtils - Running test case testUploadFileWithSendKeys
+[INFO] 09-03-2025 18:50:10 [main] LogUtils - Open URL: https://the-internet.herokuapp.com/upload
+[ERROR] 09-03-2025 18:50:14 [main] LogUtils - Test case testUploadFileWithSendKeys is failed.
+[ERROR] 09-03-2025 18:50:14 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\Tester\Automation\SeleniumTesstNG_Parallel\datatest\Selenium4_Upload.png
+  (Session info: chrome=134.0.6998.35)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae6cf866b0d800318e6af9ad0cb8c408, sendKeysToElement {value=[Ljava.lang.CharSequence;@85cd413, id=f.B2D34B54C8AA62426B32DF201DB2D457.d.B6E9F3566DA42D4239DD6A4160015230.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61166/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ae6cf866b0d800318e6af9ad0cb8c408)] -> xpath: //input[@id='file-upload']]
+Session ID: ae6cf866b0d800318e6af9ad0cb8c408
+[INFO] 09-03-2025 18:50:14 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 18:51:19 [main] LogUtils - Running test case testUploadFileWithSendKeys
+[INFO] 09-03-2025 18:51:27 [main] LogUtils - Open URL: https://the-internet.herokuapp.com/upload
+[ERROR] 09-03-2025 18:51:30 [main] LogUtils - Test case testUploadFileWithSendKeys is failed.
+[ERROR] 09-03-2025 18:51:30 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\Tester\Automation\SeleniumTesstNG_Parallel\datatest\th (2).jpg
+  (Session info: chrome=134.0.6998.35)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b24f17f292bdf12795c3e48186e4fb2b, sendKeysToElement {value=[Ljava.lang.CharSequence;@40d10264, id=f.008AB449DCEC8E7CD1E6EE57DC831534.d.96FE543FF653337AC630CC9CAB056C39.e.6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61284}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61284/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b24f17f292bdf12795c3e48186e4fb2b)] -> xpath: //input[@id='file-upload']]
+Session ID: b24f17f292bdf12795c3e48186e4fb2b
+[INFO] 09-03-2025 18:51:31 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 18:52:51 [main] LogUtils - Running test case testUploadFileWithSendKeys
+[INFO] 09-03-2025 18:52:53 [main] LogUtils - Open URL: https://the-internet.herokuapp.com/upload
+[INFO] 09-03-2025 18:53:05 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //input[@id='file-upload']
+[ERROR] 09-03-2025 18:53:05 [main] LogUtils - Test case testUploadFileWithSendKeys is failed.
+[ERROR] 09-03-2025 18:53:05 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //input[@id='file-upload']
+[INFO] 09-03-2025 18:53:07 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 18:53:35 [main] LogUtils - Running test case testUploadFileWithSendKeys
+[INFO] 09-03-2025 18:53:42 [main] LogUtils - Open URL: https://the-internet.herokuapp.com/upload
+[ERROR] 09-03-2025 18:53:45 [main] LogUtils - Test case testUploadFileWithSendKeys is failed.
+[ERROR] 09-03-2025 18:53:45 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\Tester\Automation\SeleniumTesstNG_Parallelsrc\test\resources\testdata\th (2).jpg
+  (Session info: chrome=134.0.6998.35)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9e79585a2d761ce41f40680430da1bd, sendKeysToElement {id=f.4E81C689D7726DADEA128CE8E41CFE44.d.3AE92449921199F0960A5934FD9CCD94.e.4, value=[Ljava.lang.CharSequence;@9f2fe2e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61541/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e9e79585a2d761ce41f40680430da1bd)] -> xpath: //input[@id='file-upload']]
+Session ID: e9e79585a2d761ce41f40680430da1bd
+[INFO] 09-03-2025 18:53:46 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 18:54:54 [main] LogUtils - Running test case testUploadFileWithSendKeys
+[INFO] 09-03-2025 18:55:01 [main] LogUtils - Open URL: https://the-internet.herokuapp.com/upload
+[INFO] 09-03-2025 18:55:05 [main] LogUtils - Set text D:\Tester\Automation\SeleniumTesstNG_Parallel\src\test\resources\testdata\th (2).jpg on element By.xpath: //input[@id='file-upload']
+[INFO] 09-03-2025 18:55:08 [main] LogUtils - Click element By.xpath: //input[@id='file-submit']
+[INFO] 09-03-2025 18:55:10 [main] LogUtils - Test case testUploadFileWithSendKeys is passed.
+[INFO] 09-03-2025 18:55:11 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 19:03:09 [main] LogUtils - Running test case testUploadFile2
+[INFO] 09-03-2025 19:03:22 [main] LogUtils - Open URL: https://files.fm/
+[INFO] 09-03-2025 19:03:25 [main] LogUtils - Click element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 09-03-2025 19:03:32 [main] LogUtils - Test case testUploadFile2 is passed.
+[INFO] 09-03-2025 19:03:33 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 19:05:43 [main] LogUtils - Running test case testUploadFile2
+[INFO] 09-03-2025 19:05:58 [main] LogUtils - Open URL: https://files.fm/
+[INFO] 09-03-2025 19:06:02 [main] LogUtils - Click element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 09-03-2025 19:06:08 [main] LogUtils - Test case testUploadFile2 is passed.
+[INFO] 09-03-2025 19:06:10 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 19:09:12 [main] LogUtils - Running test case testUploadFile2
+[INFO] 09-03-2025 19:09:23 [main] LogUtils - Open URL: https://files.fm/
+[INFO] 09-03-2025 19:09:26 [main] LogUtils - Click element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 09-03-2025 19:09:32 [main] LogUtils - Test case testUploadFile2 is passed.
+[INFO] 09-03-2025 19:09:33 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 19:22:09 [main] LogUtils - Running test case testUploadFile2
+[INFO] 09-03-2025 19:22:18 [main] LogUtils - Open URL: https://files.fm/
+[INFO] 09-03-2025 19:22:22 [main] LogUtils - Click element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 09-03-2025 19:22:28 [main] LogUtils - Test case testUploadFile2 is passed.
+[INFO] 09-03-2025 19:22:28 [main] LogUtils - End testing SeleniumTesstNG_Parallel
