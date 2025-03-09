@@ -1,0 +1,256 @@
+[INFO] 06-03-2025 22:53:58 [main] LogUtils - This is a debug message
+[WARN] 06-03-2025 22:53:58 [main] LogUtils - This is a warn message
+[ERROR] 06-03-2025 22:53:58 [main] LogUtils - This is an error message
+[FATAL] 06-03-2025 22:53:58 [main] LogUtils - This is a fatal message
+[INFO] 06-03-2025 22:55:33 [main] LogUtils - This is a debug message
+[WARN] 06-03-2025 22:55:33 [main] LogUtils - This is a warn message
+[ERROR] 06-03-2025 22:55:33 [main] LogUtils - This is an error message
+[FATAL] 06-03-2025 22:55:33 [main] LogUtils - This is a fatal message
+[INFO] 06-03-2025 23:07:31 [main] LogUtils - Setup môi trường onStart: Thu Mar 06 23:07:30 ICT 2025
+[INFO] 06-03-2025 23:07:33 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_EmailInvalid
+[INFO] 06-03-2025 23:07:38 [main] LogUtils - Verify login fail
+[INFO] 06-03-2025 23:07:38 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 06-03-2025 23:07:38 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:07:40 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_PasswordInvalid
+[INFO] 06-03-2025 23:07:44 [main] LogUtils - Verify login fail
+[INFO] 06-03-2025 23:07:44 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 06-03-2025 23:07:44 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:07:46 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_Success
+[INFO] 06-03-2025 23:07:54 [main] LogUtils - Verify login success
+[INFO] 06-03-2025 23:07:54 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 06-03-2025 23:07:54 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:07:55 [main] LogUtils - Kết thúc bộ test: Thu Mar 06 23:07:55 ICT 2025
+[INFO] 06-03-2025 23:28:13 [main] LogUtils - Setup môi trường onStart: Thu Mar 06 23:28:12 ICT 2025
+[INFO] 06-03-2025 23:28:16 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_EmailInvalid
+[INFO] 06-03-2025 23:28:17 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 06-03-2025 23:28:18 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-03-2025 23:28:20 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-03-2025 23:28:22 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-03-2025 23:28:22 [main] LogUtils - Verify login fail
+[INFO] 06-03-2025 23:28:22 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 06-03-2025 23:28:22 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 06-03-2025 23:28:22 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:28:24 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_PasswordInvalid
+[INFO] 06-03-2025 23:28:25 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 06-03-2025 23:28:26 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-03-2025 23:28:27 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 06-03-2025 23:28:29 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-03-2025 23:28:29 [main] LogUtils - Verify login fail
+[INFO] 06-03-2025 23:28:29 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 06-03-2025 23:28:29 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 06-03-2025 23:28:29 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:28:31 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_Success
+[INFO] 06-03-2025 23:28:33 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 06-03-2025 23:28:34 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-03-2025 23:28:36 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-03-2025 23:28:38 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-03-2025 23:28:39 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 06-03-2025 23:28:40 [main] LogUtils - Verify login success
+[INFO] 06-03-2025 23:28:40 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 06-03-2025 23:28:40 [main] LogUtils - ==> Status: 1
+[INFO] 06-03-2025 23:28:40 [main] LogUtils - Kết thúc bộ test: Thu Mar 06 23:28:40 ICT 2025
+[INFO] 08-03-2025 00:06:16 [main] LogUtils - Setup môi trường onStart: Sat Mar 08 00:06:16 ICT 2025
+[INFO] 08-03-2025 00:06:23 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_EmailInvalid
+[INFO] 08-03-2025 00:06:25 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:06:27 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:06:28 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:06:30 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:06:30 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:06:30 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:06:30 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 08-03-2025 00:06:30 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:06:33 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_PasswordInvalid
+[INFO] 08-03-2025 00:06:33 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:06:35 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:06:36 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:06:38 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:06:38 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:06:38 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:06:38 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 08-03-2025 00:06:38 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:06:41 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_Success
+[INFO] 08-03-2025 00:06:43 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:06:45 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:06:46 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:06:49 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:06:49 [main] LogUtils - Verify login success
+[INFO] 08-03-2025 00:06:49 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 08-03-2025 00:06:49 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:06:50 [main] LogUtils - Kết thúc bộ test: Sat Mar 08 00:06:50 ICT 2025
+[INFO] 08-03-2025 00:12:25 [main] LogUtils - Setup môi trường onStart: Sat Mar 08 00:12:25 ICT 2025
+[INFO] 08-03-2025 00:12:28 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_EmailInvalid
+[INFO] 08-03-2025 00:12:29 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:12:31 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:12:32 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:12:34 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:12:34 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:12:34 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:12:34 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 08-03-2025 00:12:34 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:12:37 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_PasswordInvalid
+[INFO] 08-03-2025 00:12:37 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:12:39 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:12:40 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:12:41 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:12:42 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:12:42 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:12:42 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 08-03-2025 00:12:42 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:12:44 [main] LogUtils - Bắt đầu chạy test case: testLoginCRM_Success
+[INFO] 08-03-2025 00:12:47 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:12:48 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:12:50 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:12:51 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:12:53 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 08-03-2025 00:12:53 [main] LogUtils - Verify login success
+[INFO] 08-03-2025 00:12:53 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 08-03-2025 00:12:53 [main] LogUtils - ==> Status: 1
+[INFO] 08-03-2025 00:12:56 [main] LogUtils - Kết thúc bộ test: Sat Mar 08 00:12:56 ICT 2025
+[INFO] 08-03-2025 00:29:28 [main] LogUtils - Running test case testLoginCRM_EmailInvalid
+[INFO] 08-03-2025 00:29:29 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:29:31 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:29:32 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:29:33 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:29:34 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:29:34 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:29:34 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 08-03-2025 00:29:36 [main] LogUtils - Running test case testLoginCRM_PasswordInvalid
+[INFO] 08-03-2025 00:29:36 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:29:37 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:29:39 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:29:40 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:29:40 [main] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:29:40 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:29:40 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 08-03-2025 00:29:42 [main] LogUtils - Running test case testLoginCRM_Success
+[INFO] 08-03-2025 00:29:44 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:29:45 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:29:46 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:29:48 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:29:50 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 08-03-2025 00:29:50 [main] LogUtils - Verify login success
+[INFO] 08-03-2025 00:29:50 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 08-03-2025 00:29:50 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 08-03-2025 00:49:57 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Running test case testLoginCRM_PasswordInvalid
+[INFO] 08-03-2025 00:49:57 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Running test case testLoginCRM_EmailInvalid
+[INFO] 08-03-2025 00:49:57 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Running test case testLoginCRM_Success
+[INFO] 08-03-2025 00:49:58 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:49:58 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:50:00 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:00 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:00 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:50:01 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:01 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:01 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:02 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Verify login fail
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-1] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 08-03-2025 00:50:03 [TestNG-test-Login Test CRM CHROME-2] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 08-03-2025 00:50:04 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:06 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Javascript in NOT Ready!
+[INFO] 08-03-2025 00:50:07 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Verify login success
+[INFO] 08-03-2025 00:50:07 [TestNG-test-Login Test CRM CHROME-3] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 08-03-2025 00:50:07 [main] LogUtils - End testing Login Test CRM CHROME
+[INFO] 08-03-2025 00:50:10 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Running test case testOpenCustomerPage
+[INFO] 08-03-2025 00:50:10 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Running test case testLogout
+[INFO] 08-03-2025 00:50:11 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:50:11 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:50:12 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:12 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:13 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:13 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:16 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:16 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Verify login success
+[INFO] 08-03-2025 00:50:17 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:17 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Verify login success
+[INFO] 08-03-2025 00:50:18 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Click element By.xpath: //li[@class='icon header-user-profile']
+[INFO] 08-03-2025 00:50:19 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 08-03-2025 00:50:19 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary'] ==> Customers Summary
+[INFO] 08-03-2025 00:50:19 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary'] ==> Customers Summary
+[INFO] 08-03-2025 00:50:19 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Assert contains: Customers Summary and Customers Summary
+[INFO] 08-03-2025 00:50:19 [TestNG-test-Dashboard Test CRM EDGE-2] LogUtils - Test case testOpenCustomerPage is passed.
+[INFO] 08-03-2025 00:50:20 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Click element By.xpath: (//a[.='Logout'])[1]
+[INFO] 08-03-2025 00:50:20 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Verify redirect to Login page
+[INFO] 08-03-2025 00:50:20 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Login'] ==> Login
+[INFO] 08-03-2025 00:50:20 [TestNG-test-Dashboard Test CRM EDGE-1] LogUtils - Test case testLogout is passed.
+[INFO] 08-03-2025 00:50:20 [main] LogUtils - End testing Dashboard Test CRM EDGE
+[INFO] 08-03-2025 00:50:22 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Running test case testAddNewCustomer
+[INFO] 08-03-2025 00:50:22 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 08-03-2025 00:50:24 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-03-2025 00:50:25 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-03-2025 00:50:26 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-03-2025 00:50:27 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Javascript in NOT Ready!
+[INFO] 08-03-2025 00:50:28 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Verify login success
+[INFO] 08-03-2025 00:50:29 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 08-03-2025 00:50:30 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary'] ==> Customers Summary
+[INFO] 08-03-2025 00:50:30 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary'] ==> Customers Summary
+[INFO] 08-03-2025 00:50:30 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Assert contains: Customers Summary and Customers Summary
+[INFO] 08-03-2025 00:50:31 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 08-03-2025 00:50:33 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Viettel A6 on element By.xpath: //input[@id='company']
+[INFO] 08-03-2025 00:50:34 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 08-03-2025 00:50:35 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='phonenumber']
+[INFO] 08-03-2025 00:50:36 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text https://viettel.com.vn on element By.xpath: //input[@id='website']
+[INFO] 08-03-2025 00:50:38 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 08-03-2025 00:50:39 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Gold on element By.xpath: //div[@app-field-wrapper='groups_in[]']//input[@type='search']
+[INFO] 08-03-2025 00:50:40 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set key: ENTER on element
+[INFO] 08-03-2025 00:50:41 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 08-03-2025 00:50:42 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Hà Nội on element By.xpath: //textarea[@id='address']
+[INFO] 08-03-2025 00:50:44 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Hà Nội on element By.xpath: //input[@id='city']
+[INFO] 08-03-2025 00:50:45 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Thăng Long on element By.xpath: //input[@id='state']
+[INFO] 08-03-2025 00:50:46 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text 1234 on element By.xpath: //input[@id='zip']
+[INFO] 08-03-2025 00:50:47 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //button[@data-id='country']
+[INFO] 08-03-2025 00:50:49 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set text Vietnam on element By.xpath: //div[@app-field-wrapper='country']//input[@aria-label='Search']
+[INFO] 08-03-2025 00:50:50 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Set key: ENTER on element
+[INFO] 08-03-2025 00:50:52 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //div[@id='profile-save-section']//button[normalize-space()='Save']
+[INFO] 08-03-2025 00:50:52 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Javascript in NOT Ready!
+[INFO] 08-03-2025 00:50:54 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 08-03-2025 00:51:04 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 08-03-2025 00:51:04 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - Test case testAddNewCustomer is failed.
+[ERROR] 08-03-2025 00:51:04 [TestNG-test-Customer Test CRM FIREFOX-1] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 08-03-2025 00:51:05 [main] LogUtils - End testing Customer Test CRM FIREFOX
+[INFO] 09-03-2025 16:20:41 [main] LogUtils - Running test case testLoginCRM_EmailInvalid
+[INFO] 09-03-2025 16:20:43 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 09-03-2025 16:20:45 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 09-03-2025 16:20:46 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 09-03-2025 16:20:48 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 09-03-2025 16:20:48 [main] LogUtils - Verify login fail
+[INFO] 09-03-2025 16:20:48 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 09-03-2025 16:20:48 [main] LogUtils - Test case testLoginCRM_EmailInvalid is passed.
+[INFO] 09-03-2025 16:20:50 [main] LogUtils - Running test case testLoginCRM_PasswordInvalid
+[INFO] 09-03-2025 16:20:51 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 09-03-2025 16:20:52 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 09-03-2025 16:20:53 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 09-03-2025 16:20:55 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 09-03-2025 16:20:55 [main] LogUtils - Verify login fail
+[INFO] 09-03-2025 16:20:55 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger'] ==> Invalid email or password
+[INFO] 09-03-2025 16:20:55 [main] LogUtils - Test case testLoginCRM_PasswordInvalid is passed.
+[INFO] 09-03-2025 16:20:56 [main] LogUtils - Running test case testLoginCRM_Success
+[INFO] 09-03-2025 16:20:59 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 09-03-2025 16:21:00 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 09-03-2025 16:21:01 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 09-03-2025 16:21:05 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 09-03-2025 16:21:05 [main] LogUtils - Verify login success
+[INFO] 09-03-2025 16:21:05 [main] LogUtils - Test case testLoginCRM_Success is passed.
+[INFO] 09-03-2025 16:21:05 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 09-03-2025 16:53:24 [main] LogUtils - Running test case testLoginCRM_Success
+[INFO] 09-03-2025 16:53:28 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 09-03-2025 16:53:29 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 09-03-2025 16:53:30 [main] LogUtils - Set text 123457 on element By.xpath: //input[@id='password']
+[INFO] 09-03-2025 16:53:32 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 09-03-2025 16:53:32 [main] LogUtils - Verify login success
+[ERROR] 09-03-2025 16:53:32 [main] LogUtils - Test case testLoginCRM_Success is failed.
+[ERROR] 09-03-2025 16:53:32 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='side-menu']//span[normalize-space()='Dashboard']"}
+  (Session info: chrome=134.0.6998.35)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [958450c83b4c223b41c5f2f9184fa1fc, findElement {using=xpath, value=//ul[@id='side-menu']//span[normalize-space()='Dashboard']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58735/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 958450c83b4c223b41c5f2f9184fa1fc
+[INFO] 09-03-2025 16:53:33 [main] LogUtils - End testing SeleniumTesstNG_Parallel
