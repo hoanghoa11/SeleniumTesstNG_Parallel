@@ -325,3 +325,131 @@ Session ID: e9e79585a2d761ce41f40680430da1bd
 [INFO] 09-03-2025 19:22:22 [main] LogUtils - Click element By.xpath: //div[@id='uploadifive-file_upload']
 [INFO] 09-03-2025 19:22:28 [main] LogUtils - Test case testUploadFile2 is passed.
 [INFO] 09-03-2025 19:22:28 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 10-03-2025 23:27:16 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 10-03-2025 23:27:18 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 10-03-2025 23:27:19 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2025 23:27:21 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2025 23:27:24 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2025 23:27:26 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 10-03-2025 23:27:36 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 10-03-2025 23:27:36 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 10-03-2025 23:27:36 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 10-03-2025 23:27:37 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 10-03-2025 23:30:14 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 10-03-2025 23:30:16 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 10-03-2025 23:30:17 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2025 23:30:19 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2025 23:30:21 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2025 23:30:23 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 10-03-2025 23:30:33 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 10-03-2025 23:30:33 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 10-03-2025 23:30:33 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 10-03-2025 23:30:34 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 10-03-2025 23:42:16 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 10-03-2025 23:42:18 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 10-03-2025 23:42:19 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2025 23:42:20 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2025 23:42:23 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2025 23:42:25 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 10-03-2025 23:42:36 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 10-03-2025 23:42:36 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 10-03-2025 23:42:36 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 10-03-2025 23:42:37 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 10-03-2025 23:44:55 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 10-03-2025 23:44:57 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 10-03-2025 23:44:58 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2025 23:44:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2025 23:45:01 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2025 23:45:02 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 10-03-2025 23:45:03 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 10-03-2025 23:45:14 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 10-03-2025 23:45:14 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 10-03-2025 23:45:14 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 10-03-2025 23:45:15 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 10-03-2025 23:46:39 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 10-03-2025 23:46:41 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 10-03-2025 23:46:42 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2025 23:46:44 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2025 23:46:45 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2025 23:46:46 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 10-03-2025 23:46:48 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 10-03-2025 23:46:58 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[ERROR] 10-03-2025 23:46:58 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 10-03-2025 23:46:58 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id='DataTables_Table_0_filter']//input
+[INFO] 10-03-2025 23:46:59 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 17:31:21 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 11-03-2025 17:31:23 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 17:31:25 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 17:31:26 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 17:31:28 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 17:31:29 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 11-03-2025 17:31:31 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-03-2025 17:31:33 [main] LogUtils - Set text Viettel A1 on element By.xpath: //div[@class='dataTables_filter']//input[@type='search']
+[INFO] 11-03-2025 17:31:36 [main] LogUtils - Test case testCheckDataOnTable is passed.
+[INFO] 11-03-2025 17:31:37 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 19:36:38 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 11-03-2025 19:36:40 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 19:36:41 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 19:36:42 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 19:36:45 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 19:36:47 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-03-2025 19:36:49 [main] LogUtils - Set text VIP on element By.xpath: //div[@class='dataTables_filter']//input[@type='search']
+[INFO] 11-03-2025 19:36:51 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info'] ==> Showing 1 to 25 of 180 entries (filtered from 571 total entries)
+[ERROR] 11-03-2025 19:36:51 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 11-03-2025 19:36:51 [main] LogUtils - java.lang.AssertionError: The page total not match. expected [5] but found [25]
+[INFO] 11-03-2025 19:36:52 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 19:58:54 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 11-03-2025 19:58:56 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 19:58:58 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 19:58:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 19:59:00 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 19:59:01 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 11-03-2025 19:59:03 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-03-2025 19:59:05 [main] LogUtils - Set text VIP on element By.xpath: //div[@class='dataTables_filter']//input[@type='search']
+[INFO] 11-03-2025 19:59:07 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info'] ==> Showing 1 to 25 of 180 entries (filtered from 571 total entries)
+[INFO] 11-03-2025 19:59:09 [main] LogUtils - Test case testCheckDataOnTable is passed.
+[INFO] 11-03-2025 19:59:09 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 20:14:35 [main] LogUtils - Running test case testCheckDataOnTable
+[INFO] 11-03-2025 20:14:37 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 20:14:38 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 20:14:40 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 20:14:41 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 20:14:42 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 11-03-2025 20:14:44 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-03-2025 20:14:46 [main] LogUtils - Set text VIP on element By.xpath: //div[@class='dataTables_filter']//input[@type='search']
+[INFO] 11-03-2025 20:14:48 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info'] ==> Showing 1 to 25 of 180 entries (filtered from 571 total entries)
+[ERROR] 11-03-2025 20:14:48 [main] LogUtils - Test case testCheckDataOnTable is failed.
+[ERROR] 11-03-2025 20:14:48 [main] LogUtils - java.lang.AssertionError: The page total not match. expected [5] but found [25]
+[INFO] 11-03-2025 20:14:49 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 22:40:17 [main] LogUtils - Running test case testCheckDataOnTable_Pagination
+[INFO] 11-03-2025 22:40:19 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 22:40:21 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 22:40:22 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 22:40:23 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 22:40:24 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 11-03-2025 22:40:26 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[ERROR] 11-03-2025 22:40:26 [main] LogUtils - Test case testCheckDataOnTable_Pagination is failed.
+[ERROR] 11-03-2025 22:40:26 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='DataTables_Table_0_length']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9b76069ae1095ae4989bd6f069f863, findElement {using=xpath, value=//select[@name='DataTables_Table_0_length']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9b76069ae1095ae4989bd6f069f863
+[INFO] 11-03-2025 22:40:29 [main] LogUtils - End testing SeleniumTesstNG_Parallel
+[INFO] 11-03-2025 22:55:49 [main] LogUtils - Running test case testCheckDataOnTable_Pagination
+[INFO] 11-03-2025 22:55:51 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-03-2025 22:55:52 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-03-2025 22:55:53 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-03-2025 22:55:56 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-03-2025 22:55:57 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Customers']
+[INFO] 11-03-2025 22:55:59 [main] LogUtils - 10
+[INFO] 11-03-2025 22:56:00 [main] LogUtils - Set text Viettel on element By.xpath: //div[@class='dataTables_filter']//input[@type='search']
+[INFO] 11-03-2025 22:56:02 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info'] ==> Showing 1 to 10 of 36 entries (filtered from 571 total entries)
+[INFO] 11-03-2025 22:56:04 [main] LogUtils - Click element By.xpath: //a[normalize-space()='Next']
+[INFO] 11-03-2025 22:56:07 [main] LogUtils - Click element By.xpath: //a[normalize-space()='Next']
+[INFO] 11-03-2025 22:56:11 [main] LogUtils - Click element By.xpath: //a[normalize-space()='Next']
+[INFO] 11-03-2025 22:56:13 [main] LogUtils - Test case testCheckDataOnTable_Pagination is passed.
+[INFO] 11-03-2025 22:56:13 [main] LogUtils - End testing SeleniumTesstNG_Parallel
